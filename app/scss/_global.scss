@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: $light-text-color;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    min-width: 300px;
+}
+
+h1, h2, h3 ,h4 ,h5, h6 {
+    margin: 0;
+    padding: 0;
+    // font-family: 'PT Serif', sarif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: $text-color;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 1.8rem;
+    line-height: 24px;
+}
+h4 {
+    font-size: 1.3rem;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a, button {
+    &:focus {
+        outline: none;
+    }
+}
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+address {
+    font-style: normal;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+input, textarea, select {
+    margin: 10px 0;
+    display: block;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    background: white;
+
+    &:focus {
+        outline: none;
+        border: 1px solid $accent-color;
+    }
+}
+
+.container { 
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+}
+
+.clearfix {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

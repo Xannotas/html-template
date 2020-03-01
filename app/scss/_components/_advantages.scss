@@ -1,0 +1,38 @@
+.advantages {
+    background: url('../img/advantages-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0 40px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-basis: 30%;
+
+        &__check{
+            margin-bottom: 15px;
+            &:after {
+                display: inline-block;
+                font-family: 'icomoon';
+                content: "\f00c";
+                border: 2px solid $accent-color;
+                padding: 15px;
+            }
+        }
+        &__title{
+            color: white;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        &__text{
+            font-family: "PT Serif";
+            line-height: 24px;
+            color: $light-text-color;
+        }
+    }
+}

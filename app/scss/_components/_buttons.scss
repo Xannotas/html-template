@@ -1,0 +1,36 @@
+.button {
+    display: inline-block;
+    color: $text-color;
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+
+    &-gray {
+        font-weight: 400;
+        color: $text-color;
+        padding: 10px 40px;
+        border: 3px solid #e6e6e6;
+    }
+
+    &-cta {
+        border: 1px solid $accent-color;
+        padding: 10px 0 10px 20px;
+        font-weight: 500;
+        
+        &:after{
+            font-family: 'icomoon';
+            content: "\f105";
+            padding: 11px;
+            margin-left: 10px;
+            background: $accent-color;
+            color: white;
+            vertical-align: top;
+        }
+    }
+
+    &-accent {
+        color: $text-color;
+        background: $accent-color;
+        font-size: 1.1rem;
+    }
+}

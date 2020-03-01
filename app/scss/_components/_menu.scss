@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    &__item {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        transition: all 0.3s;
+
+        &--active {
+            border: 1px solid $accent-color;
+        }
+    }
+
+    &__link{
+        color: $text-color;
+    }
+}
