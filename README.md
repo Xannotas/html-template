@@ -1,5 +1,5 @@
 # Адаптивная верстка сайта
-Демо: https://xannotas.github.io/site-template/
+Демо: https://xannotas.github.io/html-template/
 
-## Превью:
+## Скриншот:
 ![template screenshot](https://i.ibb.co/rpGHV4h/bankruptcy-min.png)
